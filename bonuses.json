@@ -1,0 +1,59 @@
+{
+  "bonuses": [
+    {
+      "id": "1",
+      "slug": "bonus-cashapp-15",
+      "title": "Bonus CashApp 15€",
+      "official_reward_eur": 15,
+      "extra_reward_eur": 3,
+      "difficulty": "facile",
+      "estimated_time_min": 10,
+      "requires": [
+        "Documento d'identità",
+        "Numero di telefono",
+        "Conto o carta per ricevere il bonus"
+      ],
+      "description_short": "Apri CashApp tramite il mio link, completa la verifica e ricevi fino a 15€ di bonus + 3€ extra da me.",
+      "description_long": "In questo bonus ti guido passo passo per aprire CashApp tramite il mio link, completare la registrazione, verificare l'identità e attivare il bonus. Ti seguirò su WhatsApp o Telegram per evitare errori.",
+      "steps": [
+        "Clicca sul link del bonus CashApp.",
+        "Completa la registrazione inserendo i tuoi dati reali.",
+        "Verifica il tuo documento se richiesto.",
+        "Segui le istruzioni per attivare il bonus.",
+        "Mandami la prova così posso riconoscerti la ricompensa extra."
+      ],
+      "status": "attivo",
+      "last_tested": "2025-12-01",
+      "whatsapp_message": "Ciao, vorrei aiuto per il Bonus CashApp 15€.",
+      "telegram_start_param": "bonus-cashapp-15"
+    },
+    {
+      "id": "2",
+      "slug": "bonus-banca-x-40",
+      "title": "Bonus Banca X 40€",
+      "official_reward_eur": 40,
+      "extra_reward_eur": 5,
+      "difficulty": "media",
+      "estimated_time_min": 20,
+      "requires": [
+        "Documento d'identità",
+        "Codice fiscale",
+        "Conto o carta esistente"
+      ],
+      "description_short": "Apri il conto Banca X tramite il mio link e ricevi 40€ di bonus + 5€ extra.",
+      "description_long": "Bonus più corposo che richiede qualche minuto in più. Ti seguo passo per passo nella compilazione del form della banca per ridurre al minimo gli errori.",
+      "steps": [
+        "Apri la pagina del conto dal mio link.",
+        "Compila il form con tutti i tuoi dati.",
+        "Carica il documento richiesto.",
+        "Attendi conferma di apertura conto.",
+        "Invia screenshot o conferma per ricevere l'extra."
+      ],
+      "status": "attivo",
+      "last_tested": "2025-11-28",
+      "whatsapp_message": "Ciao, vorrei aiuto per il Bonus Banca X 40€.",
+      "telegram_start_param": "bonus-banca-x-40"
+    }
+  ]
+}
+

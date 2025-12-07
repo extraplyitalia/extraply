@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Extraply – Guadagni extra con bonus verificati</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Navbar -->
+  <header class="w-full sticky top-0 bg-slate-950/80 backdrop-blur border-b border-slate-800 z-20">
+    <div class="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
+      <div class="font-bold text-lg tracking-tight">Extraply</div>
+      <nav class="flex gap-4 text-sm">
+        <a href="#come-funziona" class="hover:text-emerald-400">Come funziona</a>
+        <a href="#bonus" class="hover:text-emerald-400">Bonus</a>
+        <a href="#ricompensa" class="hover:text-emerald-400">Ricompensa extra</a>
+        <a href="#contatti" class="hover:text-emerald-400">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">
+          Extraply: guadagni extra online,<br /> spiegati passo per passo.
+        </h1>
+        <p class="text-slate-300 mb-6 text-sm md:text-base">
+          Seleziono solo bonus che ho testato personalmente. Ti seguo su WhatsApp e Telegram
+          e ti riconosco anche una piccola ricompensa extra se li completi tramite me.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#bonus"
+             class="px-5 py-2.5 rounded-xl bg-emerald-500 font-medium hover:bg-emerald-400 text-sm">
+            Vedi tutti i bonus
+          </a>
+          <a id="hero-whatsapp-link"
+             class="px-5 py-2.5 rounded-xl border border-slate-700 hover:border-emerald-400 text-sm cursor-pointer">
+            Scrivimi su WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl text-sm">
+        <p class="text-emerald-300 mb-2 uppercase tracking-wide text-xs">
+          Perché usare Extraply
+        </p>
+        <ul class="list-disc list-inside text-slate-300 space-y-2">
+          <li>Bonus selezionati e testati, niente fuffa.</li>
+          <li>Supporto umano + assistenza in chat per guidarti nei passaggi.</li>
+          <li>Piccola ricompensa extra se completi i bonus con me.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Come funziona -->
+  <section id="come-funziona" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold mb-6">Come funziona</h2>
+    <div class="grid md:grid-cols-3 gap-6 text-sm">
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4">
+        <h3 class="font-semibold mb-2">1. Scegli un bonus</h3>
+        <p class="text-slate-300">
+          Sfoglia la lista qui sotto e scegli il bonus che ti interessa: ogni scheda indica
+          difficoltà, tempo e requisiti.
+        </p>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4">
+        <h3 class="font-semibold mb-2">2. Segui la guida</h3>
+        <p class="text-slate-300">
+          Apri la guida e, se vuoi, scrivimi su WhatsApp o Telegram. Posso guidarti passo passo
+          così non sbagli nulla.
+        </p>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4">
+        <h3 class="font-semibold mb-2">3. Ricevi bonus + extra</h3>
+        <p class="text-slate-300">
+          Una volta ricevuto il bonus ufficiale, ti riconosco anche la mia ricompensa extra
+          come indicato nella scheda.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lista Bonus -->
+  <section id="bonus" class="max-w-5xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-semibold">Bonus disponibili</h2>
+      <span id="bonus-count" class="text-xs text-slate-400"></span>
+    </div>
+
+    <div id="bonus-list" class="grid md:grid-cols-2 gap-6"></div>
+
+    <div id="bonus-error" class="mt-4 text-xs text-red-400 hidden">
+      Errore nel caricamento dei bonus. Controlla che il file <code>bonuses.json</code> esista
+      e sia raggiungibile.
+    </div>
+  </section>
+
+  <!-- Ricompensa extra -->
+  <section id="ricompensa" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold mb-4">La mia ricompensa extra per te</h2>
+    <p class="text-slate-300 mb-3 text-sm">
+      Per ogni bonus completato correttamente tramite il mio referral, ti riconosco
+      una piccola ricompensa extra (in buono, PayPal o altra forma concordata),
+      oltre al bonus ufficiale offerto dalla piattaforma.
+    </p>
+    <p class="text-slate-400 text-xs">
+      L'importo esatto e le condizioni sono indicati nella scheda di ciascun bonus.
+      In caso di dubbi scrivimi pure direttamente in chat.
+    </p>
+  </section>
+
+  <!-- Contatti / Footer -->
+  <section id="contatti" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Contatti</h2>
+    <p class="text-sm text-slate-300 mb-4">
+      Se hai domande generali sui bonus, sui requisiti o vuoi un consiglio su quale bonus
+      fare per primo, scrivimi direttamente:
+    </p>
+    <div class="flex flex-wrap gap-3 text-sm mb-6">
+      <a id="contact-whatsapp-link"
+         class="px-5 py-2.5 rounded-xl bg-emerald-500 font-medium hover:bg-emerald-400 cursor-pointer">
+        WhatsApp
+      </a>
+      <a id="contact-telegram-link"
+         class="px-5 py-2.5 rounded-xl border border-slate-700 hover:border-emerald-400 cursor-pointer">
+        Telegram
+      </a>
+    </div>
+    <p class="text-xs text-slate-500">
+      Questo sito non è affiliato ufficialmente a CashApp o ad altri marchi citati. Leggi sempre
+      con attenzione termini e condizioni dei singoli servizi prima di procedere.
+    </p>
+  </section>
+
+  <footer class="border-t border-slate-800 mt-8">
+    <div class="max-w-5xl mx-auto px-4 py-6 text-xs text-slate-500 flex flex-col md:flex-row md:items-center justify-between gap-2">
+      <span>© 2025 Extraply – Tutti i diritti riservati.</span>
+      <span>Ultimo aggiornamento bonus: <span id="last-updated"></span></span>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    // CONFIGURAZIONE CONTATTI
+    const WHATSAPP_NUMBER = "391234567890"; // <-- METTI IL TUO NUMERO (senza +)
+    const TELEGRAM_BOT_USERNAME = "tuo_bot"; // <-- METTI username bot / account Telegram
+
+    let BONUSES = [];
+
+    function buildWhatsAppLink(message) {
+      const encoded = encodeURIComponent(message);
+      return `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    }
+
+    function buildTelegramLink(startParam) {
+      return `https://t.me/${TELEGRAM_BOT_USERNAME}?start=${encodeURIComponent(startParam)}`;
+    }
+
+    function renderBonuses() {
+      const container = document.getElementById("bonus-list");
+      const countEl = document.getElementById("bonus-count");
+      container.innerHTML = "";
+
+      const active = BONUSES.filter(b => b.status === "attivo");
+
+      active.forEach((bonus) => {
+        const requiresText = bonus.requires.join(", ");
+        const whatsappLink = buildWhatsAppLink(bonus.whatsapp_message);
+        const telegramLink = buildTelegramLink(bonus.telegram_start_param);
+
+        const stepsList = bonus.steps
+          .map(step => `<li>${step}</li>`)
+          .join("");
+
+        const card = document.createElement("article");
+        card.className = "bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between text-sm";
+
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-semibold text-lg">${bonus.title}</h3>
+              <span class="text-emerald-400 text-xs font-medium">
+                +${bonus.official_reward_eur}€ ufficiali
+                ${bonus.extra_reward_eur ? ` + ${bonus.extra_reward_eur}€ extra` : ""}
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs mb-3">
+              <span class="px-2 py-1 rounded-full bg-slate-800 capitalize">
+                Difficoltà: ${bonus.difficulty}
+              </span>
+              <span class="px-2 py-1 rounded-full bg-slate-800">
+                Tempo: ~${bonus.estimated_time_min} min
+              </span>
+              <span class="px-2 py-1 rounded-full bg-slate-800">
+                Testato il ${bonus.last_tested}
+              </span>
+            </div>
+            <p class="text-slate-300 mb-3">
+              ${bonus.description_short}
+            </p>
+            <p class="text-slate-400 text-xs mb-2">
+              Requisiti: ${requiresText}
+            </p>
+            <ul class="text-xs text-slate-400 list-disc list-inside space-y-1 mb-4">
+              ${stepsList}
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-3 mt-2">
+            <button
+              class="flex-1 text-center px-3 py-2 rounded-xl bg-emerald-500 text-xs font-medium hover:bg-emerald-400"
+              data-bonus-slug="${bonus.slug}"
+            >
+              Guida dettagliata
+            </button>
+            <a href="${whatsappLink}"
+               class="flex-1 text-center px-3 py-2 rounded-xl border border-slate-700 text-xs hover:border-emerald-400">
+              WhatsApp
+            </a>
+            <a href="${telegramLink}"
+               class="flex-1 text-center px-3 py-2 rounded-xl border border-slate-700 text-xs hover:border-emerald-400">
+              Telegram
+            </a>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+
+      countEl.textContent = active.length > 0
+        ? `${active.length} bonus attivi al momento`
+        : "Nessun bonus attivo al momento";
+    }
+
+    function setLastUpdated() {
+      const el = document.getElementById("last-updated");
+      if (!el || BONUSES.length === 0) return;
+      const dates = BONUSES.map(b => b.last_tested).filter(Boolean);
+      const latest = dates.sort().reverse()[0];
+      el.textContent = latest || "-";
+    }
+
+    function setupContactLinks() {
+      const heroWhatsApp = document.getElementById("hero-whatsapp-link");
+      const contactWhatsApp = document.getElementById("contact-whatsapp-link");
+      const contactTelegram = document.getElementById("contact-telegram-link");
+
+      const genericMessage = "Ciao, ho visto Extraply e vorrei qualche informazione sui bonus.";
+
+      if (heroWhatsApp) {
+        heroWhatsApp.href = buildWhatsAppLink(genericMessage);
+      }
+      if (contactWhatsApp) {
+        contactWhatsApp.href = buildWhatsAppLink(genericMessage);
+      }
+      if (contactTelegram) {
+        contactTelegram.href = `https://t.me/${TELEGRAM_BOT_USERNAME}`;
+      }
+    }
+
+    function setupGuideButtons() {
+      const container = document.getElementById("bonus-list");
+      container.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-bonus-slug]");
+        if (!btn) return;
+        const slug = btn.getAttribute("data-bonus-slug");
+        const bonus = BONUSES.find(b => b.slug === slug);
+        if (!bonus) return;
+        alert(`Qui puoi aprire una pagina o una modale con la guida dettagliata per: ${bonus.title}`);
+      });
+    }
+
+    async function loadBonuses() {
+      const errorEl = document.getElementById("bonus-error");
+      try {
+        const res = await fetch("bonuses.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        BONUSES = data.bonuses || [];
+        renderBonuses();
+        setLastUpdated();
+      } catch (err) {
+        console.error("Errore caricamento bonuses.json:", err);
+        if (errorEl) errorEl.classList.remove("hidden");
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      setupContactLinks();
+      setupGuideButtons();
+      loadBonuses();
+    });
+  </script>
+</body>
+</html>
+
