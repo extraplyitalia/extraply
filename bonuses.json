@@ -1,7 +1,44 @@
 {
   "bonuses": [
+  
+  
+  {
+  "id": "1",
+  "slug": "bonus-trade-republic-50",
+  "title": "Bonus Trade Republic 50€",
+  "official_reward_eur": 50,
+  "extra_reward_eur": 0,
+  "difficulty": "media",
+  "estimated_time_min": 30,
+  "requires": [
+    "Documento d'identità",
+    "Codice fiscale",
+    "Residenza in Italia",
+    "Essere maggiorenne (18+)",
+    "Conto bancario o carta per deposito e prelievo"
+  ],
+  "description_short": "Apri il conto Trade Republic tramite il mio link, completa la verifica, deposita 101€ e acquista 3 azioni (es. Tuniu) oppure 3 ETF/crypto per ricevere un'azione bonus del valore di circa 50€.",
+  "description_long": "Questo bonus Trade Republic ti permette di ottenere un'azione regalo del valore di circa 50€. Devi registrarti tramite il mio link, completare la verifica KYC, depositare almeno 101€ e acquistare 3 azioni, 3 ETF oppure 3 crypto (anche piccoli importi). Una volta ricevuta l'azione bonus, potrai venderla e prelevare il ricavato.",
+  "steps": [
+    "Richiedi il mio link invito e apri la pagina di registrazione Trade Republic.",
+    "Scarica l'app Trade Republic, inserisci numero di telefono e imposta un PIN sicuro.",
+    "Compila i dati personali (nome, cognome, data di nascita, indirizzo, residenza, codice fiscale) e rispondi alle domande sul profilo investitore.",
+    "Inserisci il codice promozionale/invito che ti ho fornito in privato.",
+    "Completa la verifica caricando fronte/retro del documento e il selfie, attendi conferma (di solito entro poche ore).",
+    "Deposita almeno 101€ tramite carta, Apple Pay/Google Pay o bonifico bancario.",
+    "Acquista 3 azioni Tuniu (o 3 ETF/3 crypto) effettuando tre ordini distinti.",
+    "Attendi l'accredito dell'azione bonus da 50€ (di solito il giorno lavorativo successivo all'acquisto).",
+    "Vendi l'azione bonus ricevuta e attendi l'accredito del ricavato nel saldo del conto.",
+    "Preleva il saldo sul tuo conto o carta seguendo le istruzioni nell'app."
+  ],
+  "status": "attivo",
+  "last_tested": "2025-12-09",
+  "whatsapp_message": "Ciao, vorrei aiuto per il Bonus Trade Republic 50€ (registrazione, deposito e acquisto delle 3 azioni).",
+  "telegram_start_param": "bonus-trade-republic-50"
+}
+,
     {
-      "id": "1",
+      "id": "2",
       "slug": "bonus-cashapp-15",
       "title": "Bonus CashApp 15€",
       "official_reward_eur": 15,
@@ -28,7 +65,7 @@
       "telegram_start_param": "bonus-cashapp-15"
     },
     {
-      "id": "2",
+      "id": "3",
       "slug": "bonus-banca-x-40",
       "title": "Bonus Banca X 40€",
       "official_reward_eur": 40,
