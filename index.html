@@ -260,6 +260,7 @@
       }
     }
 
+    // QUI LA MODIFICA: il bottone apre slug.html invece dell'alert
     function setupGuideButtons() {
       const container = document.getElementById("bonus-list");
       container.addEventListener("click", (e) => {
@@ -268,7 +269,8 @@
         const slug = btn.getAttribute("data-bonus-slug");
         const bonus = BONUSES.find(b => b.slug === slug);
         if (!bonus) return;
-        alert(`Qui puoi aprire una pagina o una modale con la guida dettagliata per: ${bonus.title}`);
+        // convenzione: pagina dettaglio = <slug>.html
+        window.location.href = `${bonus.slug}.html`;
       });
     }
 
